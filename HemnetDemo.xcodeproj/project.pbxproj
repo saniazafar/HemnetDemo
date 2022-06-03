@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09A4026F450F93B480C8187C /* Pods_HemnetDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB19DCDDD608A588136E1A4 /* Pods_HemnetDemoTests.framework */; };
+		1A320AA428576D0000193678 /* PropertyDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A320AA328576D0000193678 /* PropertyDetail.swift */; };
+		1A320AA62859B46300193678 /* NetworkServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A320AA52859B46300193678 /* NetworkServiceTest.swift */; };
+		1A320AA82859B49500193678 /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A320AA72859B49500193678 /* MockURLSession.swift */; };
+		1A320AAA2859B4AB00193678 /* MockURLSessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A320AA92859B4AB00193678 /* MockURLSessionDataTask.swift */; };
+		1A320AAC2859B57F00193678 /* PropertyListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A320AAB2859B57F00193678 /* PropertyListViewModelTests.swift */; };
+		1A320AAE2859B6B800193678 /* PropertyDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A320AAD2859B6B800193678 /* PropertyDetailViewModelTests.swift */; };
+		1A320AB02859B79300193678 /* PropertyListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A320AAF2859B79300193678 /* PropertyListCellViewModel.swift */; };
+		1A320ABC285B0BEE00193678 /* PropertyListCellViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A320ABB285B0BEE00193678 /* PropertyListCellViewModelTests.swift */; };
+		1AA836E6284A93D000F39F55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA836E5284A93D000F39F55 /* AppDelegate.swift */; };
+		1AA836E8284A93D000F39F55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA836E7284A93D000F39F55 /* SceneDelegate.swift */; };
+		1AA836ED284A93D000F39F55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA836EB284A93D000F39F55 /* Main.storyboard */; };
+		1AA836EF284A93D200F39F55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA836EE284A93D200F39F55 /* Assets.xcassets */; };
+		1AA836F2284A93D200F39F55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA836F0284A93D200F39F55 /* LaunchScreen.storyboard */; };
+		1AA8372C284AB49700F39F55 /* PropertyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA83725284AB49700F39F55 /* PropertyListViewModel.swift */; };
+		1AA8372D284AB49700F39F55 /* PropertyListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA83726284AB49700F39F55 /* PropertyListCollectionViewCell.swift */; };
+		1AA8372E284AB49700F39F55 /* PropertyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA83727284AB49700F39F55 /* PropertyListViewController.swift */; };
+		1AA8372F284AB49700F39F55 /* PropertyListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AA83728284AB49700F39F55 /* PropertyListCollectionViewCell.xib */; };
+		1AA8373A284AB4A800F39F55 /* PropertyForSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA83732284AB4A800F39F55 /* PropertyForSale.swift */; };
+		1AA8373B284AB4A800F39F55 /* CodableParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA83734284AB4A800F39F55 /* CodableParser.swift */; };
+		1AA8373C284AB4A800F39F55 /* URLSessionDataTask+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA83736284AB4A800F39F55 /* URLSessionDataTask+Extension.swift */; };
+		1AA8373D284AB4A800F39F55 /* URLSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA83737284AB4A800F39F55 /* URLSession+Extension.swift */; };
+		1AA8373E284AB4A800F39F55 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA83738284AB4A800F39F55 /* NetworkService.swift */; };
+		1AA83740284E7B3000F39F55 /* PropertyAreaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AA8373F284E7B2F00F39F55 /* PropertyAreaCollectionViewCell.xib */; };
+		1AA83742284E7B5800F39F55 /* PropertyAreaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA83741284E7B5800F39F55 /* PropertyAreaCollectionViewCell.swift */; };
+		1AA8374528534D2E00F39F55 /* PropertyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA8374428534D2E00F39F55 /* PropertyDetailViewController.swift */; };
+		1AA8374728534D3E00F39F55 /* PropertyDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA8374628534D3E00F39F55 /* PropertyDetailViewModel.swift */; };
+		C11A406E7A6B18C50C7CCF0C /* Pods_HemnetDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B491FEB351B7678A5CD34092 /* Pods_HemnetDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AA836F9284A93D200F39F55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AA836DA284A93D000F39F55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AA836E1284A93D000F39F55;
+			remoteInfo = HemnetDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A320AA328576D0000193678 /* PropertyDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyDetail.swift; sourceTree = "<group>"; };
+		1A320AA52859B46300193678 /* NetworkServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceTest.swift; sourceTree = "<group>"; };
+		1A320AA72859B49500193678 /* MockURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
+		1A320AA92859B4AB00193678 /* MockURLSessionDataTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSessionDataTask.swift; sourceTree = "<group>"; };
+		1A320AAB2859B57F00193678 /* PropertyListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyListViewModelTests.swift; sourceTree = "<group>"; };
+		1A320AAD2859B6B800193678 /* PropertyDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyDetailViewModelTests.swift; sourceTree = "<group>"; };
+		1A320AAF2859B79300193678 /* PropertyListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyListCellViewModel.swift; sourceTree = "<group>"; };
+		1A320ABB285B0BEE00193678 /* PropertyListCellViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyListCellViewModelTests.swift; sourceTree = "<group>"; };
+		1AA836E2284A93D000F39F55 /* HemnetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HemnetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA836E5284A93D000F39F55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AA836E7284A93D000F39F55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1AA836EC284A93D000F39F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AA836EE284A93D200F39F55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AA836F1284A93D200F39F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AA836F3284A93D200F39F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AA836F8284A93D200F39F55 /* HemnetDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HemnetDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA83725284AB49700F39F55 /* PropertyListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyListViewModel.swift; sourceTree = "<group>"; };
+		1AA83726284AB49700F39F55 /* PropertyListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyListCollectionViewCell.swift; sourceTree = "<group>"; };
+		1AA83727284AB49700F39F55 /* PropertyListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyListViewController.swift; sourceTree = "<group>"; };
+		1AA83728284AB49700F39F55 /* PropertyListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PropertyListCollectionViewCell.xib; sourceTree = "<group>"; };
+		1AA83732284AB4A800F39F55 /* PropertyForSale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyForSale.swift; sourceTree = "<group>"; };
+		1AA83734284AB4A800F39F55 /* CodableParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableParser.swift; sourceTree = "<group>"; };
+		1AA83736284AB4A800F39F55 /* URLSessionDataTask+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSessionDataTask+Extension.swift"; sourceTree = "<group>"; };
+		1AA83737284AB4A800F39F55 /* URLSession+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSession+Extension.swift"; sourceTree = "<group>"; };
+		1AA83738284AB4A800F39F55 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		1AA8373F284E7B2F00F39F55 /* PropertyAreaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropertyAreaCollectionViewCell.xib; sourceTree = "<group>"; };
+		1AA83741284E7B5800F39F55 /* PropertyAreaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyAreaCollectionViewCell.swift; sourceTree = "<group>"; };
+		1AA8374428534D2E00F39F55 /* PropertyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyDetailViewController.swift; sourceTree = "<group>"; };
+		1AA8374628534D3E00F39F55 /* PropertyDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyDetailViewModel.swift; sourceTree = "<group>"; };
+		434C5FC0E6564B0E36085505 /* Pods-HemnetDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HemnetDemo.release.xcconfig"; path = "Target Support Files/Pods-HemnetDemo/Pods-HemnetDemo.release.xcconfig"; sourceTree = "<group>"; };
+		51D2DBE981F6638088AD2125 /* Pods-HemnetDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HemnetDemoTests.release.xcconfig"; path = "Target Support Files/Pods-HemnetDemoTests/Pods-HemnetDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5EB19DCDDD608A588136E1A4 /* Pods_HemnetDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HemnetDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C0B991D21664CD347EEB8DE /* Pods-HemnetDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HemnetDemo.debug.xcconfig"; path = "Target Support Files/Pods-HemnetDemo/Pods-HemnetDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B491FEB351B7678A5CD34092 /* Pods_HemnetDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HemnetDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BECE694FADB79A4C458D49F4 /* Pods-HemnetDemo-HemnetDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HemnetDemo-HemnetDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-HemnetDemo-HemnetDemoUITests/Pods-HemnetDemo-HemnetDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C37FCFB86A8F30A71D07394F /* Pods-HemnetDemo-HemnetDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HemnetDemo-HemnetDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-HemnetDemo-HemnetDemoUITests/Pods-HemnetDemo-HemnetDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DB9DB876D46430A13C8E6CB3 /* Pods-HemnetDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HemnetDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-HemnetDemoTests/Pods-HemnetDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E39ED68BAE8E257B4D1F3BB3 /* Pods_HemnetDemo_HemnetDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HemnetDemo_HemnetDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AA836DF284A93D000F39F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11A406E7A6B18C50C7CCF0C /* Pods_HemnetDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA836F5284A93D200F39F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A4026F450F93B480C8187C /* Pods_HemnetDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04270BF0EF85CB67C384BACD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B491FEB351B7678A5CD34092 /* Pods_HemnetDemo.framework */,
+				E39ED68BAE8E257B4D1F3BB3 /* Pods_HemnetDemo_HemnetDemoUITests.framework */,
+				5EB19DCDDD608A588136E1A4 /* Pods_HemnetDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A320AB1285A3B3000193678 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A320AB2285A3B4000193678 /* Cell */,
+				1AA83727284AB49700F39F55 /* PropertyListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A320AB2285A3B4000193678 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1AA83741284E7B5800F39F55 /* PropertyAreaCollectionViewCell.swift */,
+				1AA8373F284E7B2F00F39F55 /* PropertyAreaCollectionViewCell.xib */,
+				1AA83726284AB49700F39F55 /* PropertyListCollectionViewCell.swift */,
+				1AA83728284AB49700F39F55 /* PropertyListCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1A320AB3285A3B5D00193678 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1A320AAF2859B79300193678 /* PropertyListCellViewModel.swift */,
+				1AA83725284AB49700F39F55 /* PropertyListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1A320AB4285A3B7800193678 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AA8374428534D2E00F39F55 /* PropertyDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A320AB5285A3B7F00193678 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1AA8374628534D3E00F39F55 /* PropertyDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1A320AB6285A3B9D00193678 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				1A320AA92859B4AB00193678 /* MockURLSessionDataTask.swift */,
+				1A320AA72859B49500193678 /* MockURLSession.swift */,
+				1A320AA52859B46300193678 /* NetworkServiceTest.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		1A320AB7285A3BBB00193678 /* PropertyList */ = {
+			isa = PBXGroup;
+			children = (
+				1A320AAB2859B57F00193678 /* PropertyListViewModelTests.swift */,
+				1A320ABB285B0BEE00193678 /* PropertyListCellViewModelTests.swift */,
+			);
+			path = PropertyList;
+			sourceTree = "<group>";
+		};
+		1A320AB8285A3BC300193678 /* PropertyDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1A320AAD2859B6B800193678 /* PropertyDetailViewModelTests.swift */,
+			);
+			path = PropertyDetail;
+			sourceTree = "<group>";
+		};
+		1AA836D9284A93D000F39F55 = {
+			isa = PBXGroup;
+			children = (
+				1AA836E4284A93D000F39F55 /* HemnetDemo */,
+				1AA836FB284A93D200F39F55 /* HemnetDemoTests */,
+				1AA836E3284A93D000F39F55 /* Products */,
+				678E769D627F451D2F8A4C58 /* Pods */,
+				04270BF0EF85CB67C384BACD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1AA836E3284A93D000F39F55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AA836E2284A93D000F39F55 /* HemnetDemo.app */,
+				1AA836F8284A93D200F39F55 /* HemnetDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AA836E4284A93D000F39F55 /* HemnetDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1AA8371F284AB46300F39F55 /* AppDelegates */,
+				1AA83724284AB49700F39F55 /* PropertyList */,
+				1AA8374328534D0B00F39F55 /* PropertDetail */,
+				1AA83730284AB4A800F39F55 /* Model */,
+				1AA83735284AB4A800F39F55 /* NetworkService */,
+				1AA83733284AB4A800F39F55 /* Parser */,
+				1AA836EB284A93D000F39F55 /* Main.storyboard */,
+				1AA836EE284A93D200F39F55 /* Assets.xcassets */,
+				1AA836F0284A93D200F39F55 /* LaunchScreen.storyboard */,
+				1AA836F3284A93D200F39F55 /* Info.plist */,
+			);
+			path = HemnetDemo;
+			sourceTree = "<group>";
+		};
+		1AA836FB284A93D200F39F55 /* HemnetDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A320AB8285A3BC300193678 /* PropertyDetail */,
+				1A320AB7285A3BBB00193678 /* PropertyList */,
+				1A320AB6285A3B9D00193678 /* NetworkService */,
+			);
+			path = HemnetDemoTests;
+			sourceTree = "<group>";
+		};
+		1AA8371F284AB46300F39F55 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				1AA836E7284A93D000F39F55 /* SceneDelegate.swift */,
+				1AA836E5284A93D000F39F55 /* AppDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		1AA83724284AB49700F39F55 /* PropertyList */ = {
+			isa = PBXGroup;
+			children = (
+				1A320AB3285A3B5D00193678 /* ViewModel */,
+				1A320AB1285A3B3000193678 /* View */,
+			);
+			name = PropertyList;
+			path = HemnetDemo/PropertyList;
+			sourceTree = SOURCE_ROOT;
+		};
+		1AA83730284AB4A800F39F55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1AA83732284AB4A800F39F55 /* PropertyForSale.swift */,
+				1A320AA328576D0000193678 /* PropertyDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1AA83733284AB4A800F39F55 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				1AA83734284AB4A800F39F55 /* CodableParser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		1AA83735284AB4A800F39F55 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				1AA83736284AB4A800F39F55 /* URLSessionDataTask+Extension.swift */,
+				1AA83737284AB4A800F39F55 /* URLSession+Extension.swift */,
+				1AA83738284AB4A800F39F55 /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		1AA8374328534D0B00F39F55 /* PropertDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1A320AB5285A3B7F00193678 /* ViewModel */,
+				1A320AB4285A3B7800193678 /* View */,
+			);
+			path = PropertDetail;
+			sourceTree = "<group>";
+		};
+		678E769D627F451D2F8A4C58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C0B991D21664CD347EEB8DE /* Pods-HemnetDemo.debug.xcconfig */,
+				434C5FC0E6564B0E36085505 /* Pods-HemnetDemo.release.xcconfig */,
+				BECE694FADB79A4C458D49F4 /* Pods-HemnetDemo-HemnetDemoUITests.debug.xcconfig */,
+				C37FCFB86A8F30A71D07394F /* Pods-HemnetDemo-HemnetDemoUITests.release.xcconfig */,
+				DB9DB876D46430A13C8E6CB3 /* Pods-HemnetDemoTests.debug.xcconfig */,
+				51D2DBE981F6638088AD2125 /* Pods-HemnetDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AA836E1284A93D000F39F55 /* HemnetDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AA8370C284A93D200F39F55 /* Build configuration list for PBXNativeTarget "HemnetDemo" */;
+			buildPhases = (
+				697CED304F63AA8BAF5863AD /* [CP] Check Pods Manifest.lock */,
+				1AA836DE284A93D000F39F55 /* Sources */,
+				1AA836DF284A93D000F39F55 /* Frameworks */,
+				1AA836E0284A93D000F39F55 /* Resources */,
+				A4A8C0453A6FE8081E48F76A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HemnetDemo;
+			productName = HemnetDemo;
+			productReference = 1AA836E2284A93D000F39F55 /* HemnetDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AA836F7284A93D200F39F55 /* HemnetDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AA8370F284A93D200F39F55 /* Build configuration list for PBXNativeTarget "HemnetDemoTests" */;
+			buildPhases = (
+				DE2112CAD65EFC258DAB2896 /* [CP] Check Pods Manifest.lock */,
+				1AA836F4284A93D200F39F55 /* Sources */,
+				1AA836F5284A93D200F39F55 /* Frameworks */,
+				1AA836F6284A93D200F39F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AA836FA284A93D200F39F55 /* PBXTargetDependency */,
+			);
+			name = HemnetDemoTests;
+			productName = HemnetDemoTests;
+			productReference = 1AA836F8284A93D200F39F55 /* HemnetDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AA836DA284A93D000F39F55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1AA836E1284A93D000F39F55 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					1AA836F7284A93D200F39F55 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+						TestTargetID = 1AA836E1284A93D000F39F55;
+					};
+				};
+			};
+			buildConfigurationList = 1AA836DD284A93D000F39F55 /* Build configuration list for PBXProject "HemnetDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AA836D9284A93D000F39F55;
+			productRefGroup = 1AA836E3284A93D000F39F55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AA836E1284A93D000F39F55 /* HemnetDemo */,
+				1AA836F7284A93D200F39F55 /* HemnetDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AA836E0284A93D000F39F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA8372F284AB49700F39F55 /* PropertyListCollectionViewCell.xib in Resources */,
+				1AA836F2284A93D200F39F55 /* LaunchScreen.storyboard in Resources */,
+				1AA836EF284A93D200F39F55 /* Assets.xcassets in Resources */,
+				1AA836ED284A93D000F39F55 /* Main.storyboard in Resources */,
+				1AA83740284E7B3000F39F55 /* PropertyAreaCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA836F6284A93D200F39F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		697CED304F63AA8BAF5863AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HemnetDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4A8C0453A6FE8081E48F76A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HemnetDemo/Pods-HemnetDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HemnetDemo/Pods-HemnetDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HemnetDemo/Pods-HemnetDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE2112CAD65EFC258DAB2896 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HemnetDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AA836DE284A93D000F39F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA8373C284AB4A800F39F55 /* URLSessionDataTask+Extension.swift in Sources */,
+				1AA8372C284AB49700F39F55 /* PropertyListViewModel.swift in Sources */,
+				1AA8374728534D3E00F39F55 /* PropertyDetailViewModel.swift in Sources */,
+				1A320AA428576D0000193678 /* PropertyDetail.swift in Sources */,
+				1AA8372E284AB49700F39F55 /* PropertyListViewController.swift in Sources */,
+				1AA83742284E7B5800F39F55 /* PropertyAreaCollectionViewCell.swift in Sources */,
+				1AA8373E284AB4A800F39F55 /* NetworkService.swift in Sources */,
+				1A320AB02859B79300193678 /* PropertyListCellViewModel.swift in Sources */,
+				1AA8374528534D2E00F39F55 /* PropertyDetailViewController.swift in Sources */,
+				1AA8373B284AB4A800F39F55 /* CodableParser.swift in Sources */,
+				1AA8373A284AB4A800F39F55 /* PropertyForSale.swift in Sources */,
+				1AA836E6284A93D000F39F55 /* AppDelegate.swift in Sources */,
+				1AA8373D284AB4A800F39F55 /* URLSession+Extension.swift in Sources */,
+				1AA8372D284AB49700F39F55 /* PropertyListCollectionViewCell.swift in Sources */,
+				1AA836E8284A93D000F39F55 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA836F4284A93D200F39F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A320AAE2859B6B800193678 /* PropertyDetailViewModelTests.swift in Sources */,
+				1A320AAA2859B4AB00193678 /* MockURLSessionDataTask.swift in Sources */,
+				1A320AA82859B49500193678 /* MockURLSession.swift in Sources */,
+				1A320AAC2859B57F00193678 /* PropertyListViewModelTests.swift in Sources */,
+				1A320AA62859B46300193678 /* NetworkServiceTest.swift in Sources */,
+				1A320ABC285B0BEE00193678 /* PropertyListCellViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AA836FA284A93D200F39F55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AA836E1284A93D000F39F55 /* HemnetDemo */;
+			targetProxy = 1AA836F9284A93D200F39F55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AA836EB284A93D000F39F55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AA836EC284A93D000F39F55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AA836F0284A93D200F39F55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AA836F1284A93D200F39F55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AA8370A284A93D200F39F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AA8370B284A93D200F39F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AA8370D284A93D200F39F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C0B991D21664CD347EEB8DE /* Pods-HemnetDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22G4ZNJKH4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HemnetDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saniazafar.HemnetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1AA8370E284A93D200F39F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434C5FC0E6564B0E36085505 /* Pods-HemnetDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22G4ZNJKH4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HemnetDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saniazafar.HemnetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1AA83710284A93D200F39F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB9DB876D46430A13C8E6CB3 /* Pods-HemnetDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saniazafar.HemnetDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HemnetDemo.app/HemnetDemo";
+			};
+			name = Debug;
+		};
+		1AA83711284A93D200F39F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D2DBE981F6638088AD2125 /* Pods-HemnetDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saniazafar.HemnetDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HemnetDemo.app/HemnetDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AA836DD284A93D000F39F55 /* Build configuration list for PBXProject "HemnetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA8370A284A93D200F39F55 /* Debug */,
+				1AA8370B284A93D200F39F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AA8370C284A93D200F39F55 /* Build configuration list for PBXNativeTarget "HemnetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA8370D284A93D200F39F55 /* Debug */,
+				1AA8370E284A93D200F39F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AA8370F284A93D200F39F55 /* Build configuration list for PBXNativeTarget "HemnetDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA83710284A93D200F39F55 /* Debug */,
+				1AA83711284A93D200F39F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AA836DA284A93D000F39F55 /* Project object */;
+}
